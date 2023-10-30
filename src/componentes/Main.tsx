@@ -5,7 +5,8 @@ function Main(){
     const [increase, setIncrease] = useState(1)
     return(
        <> <div className="Main"> 
-            <img src="./rock-paper-scissors-master/images/bg-triangle.svg" alt="A triangle" className="triangle" />
+            <img src ="./rock-paper-scissors-master/images/bg-triangle.svg" alt="A triangle" className="triangle" />
+            
             <div className="paperDiv"   >
                 <img src="./rock-paper-scissors-master/images/icon-paper.svg" alt="Paper symbol" className="paper "  onClick={() => Choice('paper')}/>
                 </div>
