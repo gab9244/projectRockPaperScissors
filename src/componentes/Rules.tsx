@@ -6,7 +6,7 @@ function Rules(){
             <button className="Rules" onClick={trigger}>Rules</button>
             <div className="popup none">
                 <div className="popup-inner">
-                    <img src="/rock-paper-scissors-master/images/image-rules.svg" alt="" />
+                    <img src="./rock-paper-scissors-master/images/image-rules.svg" alt="" />
                     <button className="close-btn" onClick={Close}>X</button>
                 </div>
             </div>

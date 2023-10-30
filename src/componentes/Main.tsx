@@ -5,15 +5,15 @@ function Main(){
     const [increase, setIncrease] = useState(1)
     return(
        <> <div className="Main"> 
-            <img src="rock-paper-scissors-master/images/bg-triangle.svg" alt="A triangle" className="triangle" />
+            <img src="./rock-paper-scissors-master/images/bg-triangle.svg" alt="A triangle" className="triangle" />
             <div className="paperDiv"   >
-                <img src="rock-paper-scissors-master/images/icon-paper.svg" alt="Paper symbol" className="paper "  onClick={() => Choice('paper')}/>
+                <img src="./rock-paper-scissors-master/images/icon-paper.svg" alt="Paper symbol" className="paper "  onClick={() => Choice('paper')}/>
                 </div>
             <div className="scissorsDiv"  >
-                <img src="rock-paper-scissors-master/images/icon-scissors.svg" alt="Scissors symbol" className="scissors" onClick={() => Choice('scissors')}/>
+                <img src="./rock-paper-scissors-master/images/icon-scissors.svg" alt="Scissors symbol" className="scissors" onClick={() => Choice('scissors')}/>
             </div>
             <div className="rockDiv" >
-                <img src="rock-paper-scissors-master/images/icon-rock.svg" alt="Rock symbol" className="rock" onClick={() => Choice('rock')}/>
+                <img src="./rock-paper-scissors-master/images/icon-rock.svg" alt="Rock symbol" className="rock" onClick={() => Choice('rock')}/>
             </div>
         </div>
 
