@@ -5,16 +5,15 @@ function Main(){
     const [increase, setIncrease] = useState(1)
     return(
        <> <div className="Main"> 
-            <img src ="./rock-paper-scissors-master/images/bg-triangle.svg" alt="A triangle" className="triangle" />
-            
+            <img src ="/projectRockPaperScissors/bg-triangle.svg" alt="A triangle" className="triangle" />
             <div className="paperDiv"   >
-                <img src="./rock-paper-scissors-master/images/icon-paper.svg" alt="Paper symbol" className="paper "  onClick={() => Choice('paper')}/>
+                <img src="/projectRockPaperScissors/icon-paper.svg" alt="Paper symbol" className="paper "  onClick={() => Choice('paper')}/>
                 </div>
             <div className="scissorsDiv"  >
-                <img src="./rock-paper-scissors-master/images/icon-scissors.svg" alt="Scissors symbol" className="scissors" onClick={() => Choice('scissors')}/>
+                <img src="/projectRockPaperScissors/icon-scissors.svg" alt="Scissors symbol" className="scissors" onClick={() => Choice('scissors')}/>
             </div>
             <div className="rockDiv" >
-                <img src="./rock-paper-scissors-master/images/icon-rock.svg" alt="Rock symbol" className="rock" onClick={() => Choice('rock')}/>
+                <img src="/projectRockPaperScissors/icon-rock.svg" alt="Rock symbol" className="rock" onClick={() => Choice('rock')}/>
             </div>
         </div>
 
@@ -45,17 +44,17 @@ function Main(){
         const Result = document.querySelector('.Result')
 
         const paperImg = document.createElement('img')  
-        paperImg.src = "/rock-paper-scissors-master/images/icon-paper.svg"
+        paperImg.src = "/projectRockPaperScissors/icon-paper.svg"
         paperImg.setAttribute('class','paperChoice')
   
 
         const rockImg = document.createElement('img')
-        rockImg.src = "/rock-paper-scissors-master/images/icon-rock.svg"
+        rockImg.src = "/projectRockPaperScissors/icon-rock.svg"
         rockImg.classList.add('rockChoice')
 
 
         const scissorsImg = document.createElement('img')
-        scissorsImg.src = "/rock-paper-scissors-master/images/icon-scissors.svg"
+        scissorsImg.src = "/projectRockPaperScissors/icon-scissors.svg"
         scissorsImg.classList.add('scissorsChoice')
 
 
@@ -97,17 +96,17 @@ function Main(){
         }
        
         if(choice == 'scissors' ) { 
-            img?.setAttribute('src',`/rock-paper-scissors-master/images/icon-scissors.svg`)
+            img?.setAttribute('src',`/projectRockPaperScissors/icon-scissors.svg`)
             img?.setAttribute('alt', 'scissors')
             player?.setAttribute('class','PlayerScissors Player')
         }
         if(choice == 'paper') {
-            img?.setAttribute('src',`/rock-paper-scissors-master/images/icon-paper.svg`)
+            img?.setAttribute('src',`/projectRockPaperScissors/icon-paper.svg`)
             img?.setAttribute('alt', 'paper')
             player?.setAttribute('class','PlayerPaper Player')
         }
         if(choice == 'rock') {
-            img?.setAttribute('src',`/rock-paper-scissors-master/images/icon-rock.svg`)
+            img?.setAttribute('src',`/projectRockPaperScissors/icon-rock.svg`)
             img?.setAttribute('alt', 'rock')
             player?.setAttribute('class','PlayerRock Player')
         }
